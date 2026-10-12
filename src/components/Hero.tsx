@@ -6,9 +6,6 @@ import {
   MapPin,
   Sparkles,
   Terminal,
-  Database,
-  Cpu,
-  Layers,
   Code2
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
@@ -207,37 +204,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                       REST APIs
                     </span>
                   </div>
-                </div>
-              </div>
-
-              {/* Floating Skill Badges */}
-              <div className="absolute -top-4 -left-4 glass-panel px-3.5 py-2 rounded-2xl shadow-xl flex items-center gap-2 animate-float">
-                <div className="w-7 h-7 rounded-lg bg-cyan-500/10 text-cyan-500 flex items-center justify-center">
-                  <Layers className="w-4 h-4" />
-                </div>
-                <div className="text-left">
-                  <div className="text-[10px] text-slate-400 uppercase font-semibold">Frontend</div>
-                  <div className="text-xs font-bold text-slate-800 dark:text-white">React &amp; TS</div>
-                </div>
-              </div>
-
-              <div className="absolute -bottom-4 -left-4 glass-panel px-3.5 py-2 rounded-2xl shadow-xl flex items-center gap-2 animate-float [animation-delay:1.5s]">
-                <div className="w-7 h-7 rounded-lg bg-emerald-500/10 text-emerald-500 flex items-center justify-center">
-                  <Database className="w-4 h-4" />
-                </div>
-                <div className="text-left">
-                  <div className="text-[10px] text-slate-400 uppercase font-semibold">Database</div>
-                  <div className="text-xs font-bold text-slate-800 dark:text-white">MongoDB</div>
-                </div>
-              </div>
-
-              <div className="absolute top-1/3 -right-6 glass-panel px-3.5 py-2 rounded-2xl shadow-xl flex items-center gap-2 animate-float [animation-delay:2.5s]">
-                <div className="w-7 h-7 rounded-lg bg-amber-500/10 text-amber-500 flex items-center justify-center">
-                  <Cpu className="w-4 h-4" />
-                </div>
-                <div className="text-left">
-                  <div className="text-[10px] text-slate-400 uppercase font-semibold">Backend</div>
-                  <div className="text-xs font-bold text-slate-800 dark:text-white">Node &amp; Express</div>
                 </div>
               </div>
             </div>
