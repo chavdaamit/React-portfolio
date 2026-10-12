@@ -93,7 +93,6 @@ export const portfolioData = {
         { name: "React.js", level: "Proficient", icon: "react" },
         { name: "TypeScript", level: "Proficient", icon: "typescript" },
         { name: "JavaScript (ES6+)", level: "Advanced", icon: "javascript" },
-        { name: "Tailwind CSS", level: "Proficient", icon: "tailwind" },
         { name: "Bootstrap 5", level: "Advanced", icon: "bootstrap" },
         { name: "HTML5 & Semantic Web", level: "Advanced", icon: "html" },
         { name: "CSS3 & Modern Layouts", level: "Advanced", icon: "css" },
@@ -198,7 +197,7 @@ export const portfolioData = {
       featured: true,
       description:
         "Interactive web application engineered for online retail. Features dynamic catalog filtering, instant cart management, item quantity modification, and persistent order summaries.",
-      tags: ["React", "JavaScript", "Tailwind CSS", "REST API", "State Management"],
+      tags: ["React", "JavaScript", "Bootstrap", "REST API", "State Management"],
       githubUrl: "https://github.com/chavdaamit/E-commerce-project",
       highlights: [
         "Dynamic cart calculation with real-time tax and price updates",
