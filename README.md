@@ -1,32 +1,68 @@
-# React + TypeScript + Vite
+# Amit Chavda — Full Stack & MERN Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, and high-performance portfolio website built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Key Features
 
-## React Compiler
+- **⚡ Blazing Fast Performance:** Powered by Vite & React 19.
+- **🎨 Modern Dark & Light Mode:** Seamless system and manual toggle with zero FOUC (Flash of Unstyled Content).
+- **💼 Comprehensive Resume Integration:**
+  - Embedded PDF resume viewer modal.
+  - Direct 1-click CV download (`AMIT_CHAVDA_Resume.pdf`).
+- **🚀 Featured Projects Showcase:**
+  - **Food Ordering REST API** (Node.js, Express, MongoDB, Mongoose, JWT)
+  - **ASUS Laptop Website Clone** (Responsive product showcase with Live Netlify Demo)
+  - **Secure JWT Authentication System** (Bcrypt, JWT, route protection middleware)
+  - **E-Commerce Platform** (React, Cart State, Filters)
+  - **HTML/CSS Exam Showcase** (Live Netlify Demo)
+  - **Event Management Practical System**
+- **🐙 Live GitHub Profile Integration:**
+  - Direct links to 79+ public repositories from [@chavdaamit](https://github.com/chavdaamit).
+- **📬 Interactive Contact Hub:**
+  - One-click copy for Email (`adchavda7777@gmail.com`) and Phone (`+91 7984656852`).
+  - Direct WhatsApp chat link (`https://wa.me/917984656852`).
+  - Interactive message form with instant celebratory confetti.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- **Framework:** React 19 + TypeScript
+- **Bundler:** Vite
+- **Styling:** Tailwind CSS (v4) + Custom Glassmorphism UI
+- **Icons:** Lucide React + Custom SVG Brand Icons
+- **Animation & Effects:** CSS Keyframe Glows + Canvas Confetti
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+---
+
+## 🚀 Getting Started
+
+### 1. Install Dependencies
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 2. Start Local Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### 3. Build for Production
+```bash
+npm run build
+```
+Production assets are generated in the `dist/` folder ready for deployment on Vercel, Netlify, or GitHub Pages.
+
+---
+
+## 👤 Author
+
+- **Name:** Amit Chavda
+- **GitHub:** [@chavdaamit](https://github.com/chavdaamit)
+- **LinkedIn:** [Amit Chavda](https://www.linkedin.com/in/amit1201/)
+- **Email:** adchavda7777@gmail.com
+- **Phone:** +91 7984656852
+- **Location:** Bhavnagar, Gujarat, India
